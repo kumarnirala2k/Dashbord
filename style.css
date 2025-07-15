@@ -629,3 +629,20 @@ main .recent_orders a{
 
 
 }
+
+
+.comment{
+        display: inline-block;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin: .8rem;
+        box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+      }
+ .comment:hover{
+    box-shadow : none;
+ }
